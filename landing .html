@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Reset and Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        .navbar a {
+            color: #f4f4f9;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1554995207-c18c203602cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwfHxmYXNoaW9ufGVufDB8fHx8MTY5OTUwODg5Mg&ixlib=rb-1.2.1&q=80&w=1080'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            text-align: center;
+            color: rgb(16, 1, 1);
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        .hero button {
+            padding: 15px 30px;
+            font-size: 1rem;
+            color: #333;
+            background-color: #ffb74d;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        /* About Section */
+        .about {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+        .about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .about p {
+            max-width: 600px;
+            margin: 0 auto;
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #f4f4f9;
+        }
+        .services h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+        .services .service-item {
+            display: inline-block;
+            width: 30%;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .services .service-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .services .service-item p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Project Section */
+        .projects {
+            padding: 60px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+        .projects h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+        .projects .project-item {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .projects img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 60px 20px;
+            background-color: #f4f4f9;
+            text-align: center;
+        }
+        .testimonials h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+        .testimonials .testimonial {
+            display: inline-block;
+            width: 30%;
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .testimonials .testimonial img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .testimonials .testimonial h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .testimonials .testimonial p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #333;
+            color: #f4f4f9;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>We Design Your Dreams</h1>
+        <p>Transforming spaces with modern, aesthetic, and functional designs.</p>
+        <button>Contact Us</button>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We are a team of passionate interior designers, dedicated to creating spaces that are not only visually appealing but also functional and sustainable. With years of experience in the field, we strive to bring your dream space to life.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Interior Design</h3>
+            <p>Beautiful and functional interior designs tailored to meet client needs.</p>
+        </div>
+        <div class="service-item">
+            <h3>Consultation</h3>
+            <p>Expert advice to help you make the best design decisions for your space.</p>
+        </div>
+        <div class="service-item">
+            <h3>Project Management</h3>
+            <p>Managing your project from concept to completion with ease.</p>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="projects">
+        <h2>Our Projects</h2>
+        <div class="project-item">
+            <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGhvZGVsfGVufDB8fHx8MTY5OTUwOTA5OQ&ixlib=rb-1.2.1&q=80&w=500" alt="Project 1">
+        </div>
+        <div class="project-item">
+            <img src="https://thestudiobangalore.com/blog/wp-content/uploads/2024/03/Interior-Design-scaled.jpg" alt="Project 2">
+        </div>
+        <div class="project-item">
+            <img src="https://www.artemisiacollege.com/wp-content/uploads/2020/01/INTERIOR-DESIGN.jpg" alt="Project 3">
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGNsaWVudHxlbnwwfHx8fDE2OTk1MDkxNzg&ixlib=rb-1.2.1&q=80&w=100" alt="Client 1">
+            <h3>John Doe</h3>
+            <p>“They turned my ideas into reality. Highly recommend! Great Work!”</p>
+        </div>
+        <div class="testimonial">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNsaWVudHxlbnwwfHx8fDE2OTk1MDkyMDE&ixlib=rb-1.2.1&q=80&w=100" alt="Client 2">
+            <h3>Jane Smith</h3>
+            <p>“Their designs are both functional and beautiful. Love my new space!”</p>
+        </div>
+        <div class="testimonial">
+            <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNsaWVudHxlbnwwfHx8fDE2OTk1MDkyMzc&ixlib=rb-1.2.1&q=80&w=100" alt="Client 3">
+            <h3>Alex Johnson</h3>
+            <p>“The best interior designers I've worked with. Highly recommended.”</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Expert Interior Designs. All Rights Reserved.</p>
+    </div>
+
+</body>
